@@ -59,13 +59,26 @@ body{
     padding: var(--padding);
 }
 
-.header__title{
+.portada__title{
     position: absolute;
     font-size: var(--title);
     font-weight: 900;
     color: var(--verde);
     bottom: 15%;
     right: 20%;
+}
+
+.portada__recurso{
+    position: absolute;
+    left: 80%;
+    bottom: 75%;
+    width: 210px;
+}
+
+.portada__span{
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: var(--verde);
+    color: transparent;
 }
 
 .portada__container{
@@ -119,6 +132,12 @@ body{
     margin: 0;
 }
 
+.exp__recurso{
+    position: absolute;
+    right: -5%;
+    top: 100%;
+}
+
 
 /*  SHOP  */
 
@@ -136,6 +155,12 @@ body{
     font-size: var(--title);
     margin: 0;
     color: var(--verde);
+}
+
+.shop__span{
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: var(--verde);
+    color: transparent;
 }
 
 .shop__container{
@@ -202,9 +227,11 @@ body{
 .piece__title{
     font-size: var(--subtitle);
     margin: 0;
-    color: var(--verde);
     font-weight: 900;
-    line-height: 70px;
+    line-height: 75px;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: var(--verde);
+    color: transparent;
 }
 
 .piece__content{
@@ -291,7 +318,9 @@ body{
 .desig__title{
     font-size: var(--title);
     margin: 0;
-    color: var(--verde);
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: var(--verde);
+    color: transparent;
 }
 
 .desig__descrip{
